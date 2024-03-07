@@ -30,8 +30,7 @@ Este projeto se conecta a um banco de dados SQL Server. Você precisará configu
     ##SCRIPT PARA EXECUTAR NO SQL SERVER
 
 
-
-
+```
     USE [master]
 GO
 /****** Object:  Database [approval_flow]    Script Date: 2024-03-07 6:21:29 AM ******/
@@ -181,7 +180,7 @@ ALTER DATABASE [approval_flow] SET  READ_WRITE
 GO
 
 
-
+```
 
 
 ## Desenvolvimento
