@@ -1,6 +1,14 @@
 # Aplicação de fluxo de aprovação para compra de material de escritório - Approval Flow Application API
 
-Este é um projeto de API Node.js que se conecta a um banco de dados SQL Server.
+Aplicação de Fluxo de Aprovação para Compra de Material de Escritório
+Descrição
+Este projeto é uma API desenvolvida utilizando Node.js e Express, que implementa um sistema de fluxo de aprovação para compras de material de escritório. A aplicação se comunica com um banco de dados SQL Server para armazenar os dados dos usuários, solicitações de compra e aprovações. O JWT (JSON Web Tokens) é utilizado para autenticação e autorização de usuários. O Nodemon é utilizado para reiniciar automaticamente o servidor sempre que houver alterações nos arquivos do projeto, facilitando o desenvolvimento.
+
+- No projeto contém uma tela de login que pode ser acessada através de 3 tipos de usários com visões e permissões diferentes:
+  - SOLICITANTE -- solicitante@senior.com.br utilizando a senha Senior@123
+  - ALMOXARIFE --  almoxarife@senior.com.br  utilizando senha Senior@123
+  - ADMININSTRATIVO -- administrativo@senior.com.br  utilizando senha Senior@123
+
 
 ## Pré-requisitos
 
@@ -182,7 +190,6 @@ GO
 
 ```
 
-
 ## Desenvolvimento
 
 Para iniciar o servidor de desenvolvimento:
@@ -192,22 +199,9 @@ npm run dev
 
 Este comando inicia o servidor Node.js em modo de desenvolvimento. Qualquer alteração no código fonte reiniciará automaticamente o servidor.
 
-Testes
-Para executar os testes:
-
-npm test
-
 Build
 Para criar uma build de produção, execute o seguinte comando:
 
-npm run build
-
-Este comando compila o código TypeScript em JavaScript puro no diretório dist/.
-
-Execução
-Para executar a build de produção:
-
-npm start
 
 
 
