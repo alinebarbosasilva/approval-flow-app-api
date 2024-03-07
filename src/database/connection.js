@@ -1,8 +1,8 @@
 const sql = require("mssql")
 
 const dbSettings = {
-    user: "aline",
-    password: "thor1618",
+    user: "user",
+    password: "Senha@123",
     database: "approval_flow",
     server: "localhost",
     options: {
