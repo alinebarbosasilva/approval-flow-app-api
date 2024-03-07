@@ -199,10 +199,4 @@ npm run dev
 
 Este comando inicia o servidor Node.js em modo de desenvolvimento. Qualquer alteração no código fonte reiniciará automaticamente o servidor.
 
-Build
-Para criar uma build de produção, execute o seguinte comando:
-
-
-
-
 
