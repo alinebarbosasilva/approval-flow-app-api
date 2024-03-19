@@ -2,7 +2,7 @@
 const bcrypt = require('bcryptjs');
 
 //Insira uma senha
-const password = 'Senior@123'
+const password = 'Senha@123'
 
 // Gera a hash da senha usando bcrypt
 const hashPassword = bcrypt.hashSync(password, 10);

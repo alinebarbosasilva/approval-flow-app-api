@@ -2,7 +2,7 @@ const getConnection = require('../database/connection.js');
 const sql = require('mssql');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
-const SECRET = '!GoSenior123'
+const SECRET = 'SuperSecret!@#'
 
 const login = async function (req, res) {
     const pool = await getConnection()
