@@ -6,7 +6,7 @@ Este projeto é uma API desenvolvida utilizando Node.js e Express, que implement
 
 - No projeto contém uma tela de login que pode ser acessada através de 3 tipos de usários com visões e permissões diferentes:
   - SOLICITANTE -- solicitante@company.com.br utilizando a senha Senha@123
-  - ALMOXARIFE --  almoxarife@company.com.br  utilizando senha Senha @123
+  - ALMOXARIFE --  almoxarife@company.com.br  utilizando senha Senha@123
   - ADMININSTRATIVO -- administrativo@company.com.br  utilizando senha Senha@123
 
 
