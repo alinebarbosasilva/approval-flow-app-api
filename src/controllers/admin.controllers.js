@@ -1,7 +1,7 @@
 const getConnection = require('../database/connection.js');
 const sql = require('mssql');
 
-const getAdminSolicitations = async (req, res, next) => {
+const getAdminSolicitations = async (req, res) => {
     const pool = await getConnection()
 
     let query = 'SELECT * FROM solicitations WHERE 1=1';
