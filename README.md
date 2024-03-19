@@ -19,7 +19,7 @@ Antes de começar, certifique-se de ter o Node.js e o npm (Node Package Manager)
 
 ## Instalação
 
-1. Clone o repositório: `git clone (https://github.com/alinebarbosasilva/approval-flow-application-api.git)
+1. Clone o repositório: `git clone (https://github.com/alinebarbosasilva/approval-flow-app-api.git)
 2. Navegue até o diretório do projeto: `cd approval-flow-app\api`
 3. Instale as dependências: `npm install`
 4. Para executar o projeto execute npm run dev
